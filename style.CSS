@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1f1c2c, #928dab); 
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+.social-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.btn {
+    display: inline-block; 
+    padding: 12px 24px; 
+    background: white;
+    color: #FF4567;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600; 
+    transition: transform 0.2s,box-shadow 0.2s; 
+}
+.btn:hover { 
+    transform: translateY(-3px); 
+    box-shadow: 0 10px 20px rgba(255, 69, 103, 0.3); }
